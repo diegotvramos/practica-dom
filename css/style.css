@@ -75,6 +75,7 @@ img{
     right: 0;
     background-color: var(--second-modal-color);
     opacity: 0;
+    visibility: hidden;/* para que el menú ya no sea interactivo.*/
     /* para que sea un movimiento no subito */
     transition: transform 0.3s ease, opacity 0.5s ease;
     /* quiero que se mueva con respecto de X y Y valores negagivos en la web
@@ -93,7 +94,8 @@ img{
 /* esta clase es la que se va a gregar o quitar */
 .panel.is-active{
     /* transform: translate(0,0); */
-    opacity: 1;
+    opacity:3;
+    visibility: visible;
 }
 
 
