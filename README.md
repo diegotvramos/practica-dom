@@ -11,3 +11,8 @@ para la seccion de alarma y reloj, no olvides descargarte un audio del internet 
 ASSETS= activos, recursos ¿que es assets en informatica?
 
 cada tecla tiene un codigo 
+getBoundingClientRect(), // con esto detectamos la colicion 
+
+siguiente ejercicio:
+van a necesitar: programacion asincrona= temporizadores, parametros (selector donde va ir el elemento para que este 
+actualizando su contenido {html o texcontent},fecha, Mensaje final ) cuando llega a su limite un feliz año nuevo

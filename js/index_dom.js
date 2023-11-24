@@ -1,7 +1,7 @@
 import hanburgerMenu from "./dom/menu_hamburguesa.js";
 //completa el .JS
 import { digitalClock,alarm } from "./dom/reloj.js";// como no hay ninguna funcion por default uso la desestructuracion de objetos
-import { shortcuts } from "./dom/teclado.js";
+import { shortcuts,moveBall } from "./dom/teclado.js";
 
 
 const d = document;
@@ -16,7 +16,8 @@ d.addEventListener("DOMContentLoaded",(e)=>{
 //keyboard event
 /*"keydown" , "keyup", "keypress"  */
 d.addEventListener("keydown",(e)=>{
-    shortcuts(e)
+    shortcuts(e);
+    moveBall(e,".ball", ".stage"); // corresponde a lo que tenemos en el html
 })
 
 

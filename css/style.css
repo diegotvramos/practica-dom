@@ -139,6 +139,21 @@ img{
 }
 
 
+/***********************EVENTOS DEL TECLADO**************************/
+
+.stage{
+    display: flex;
+    min-height: 50vh;/*minima altura del view port*/
+    background-color: var(--second-color);
+}
+
+.ball{
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%; /*es un cuadrado, pero con esto lo volvemos una pelota*/
+    background-color: var(--main-color);
+}
 
 
 
