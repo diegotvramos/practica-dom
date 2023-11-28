@@ -32,3 +32,10 @@ slice(-2) : 019 =>19  // recorta antes de dos digitos
 SIEGUIENTE:
 cuando llegue a cierta distancia de alejemiento la barra de scroll vertical respecto del margen top
 aparesca un boton  y cuando lo pulcemos nos lleve al inicio del documento
+
+en la barra de desplasamiento horizontal no es bueno poner otro boton, ya que se considera de muy mal gusto que tu sitio no sea responsivo y te generé una barra horizontal imaginate que estas haciendo una precentacion tipo diapositiva, a lo mejor ahi si te interesa
+
+en este capitulo vimos algunas caracteristicas del DOM Y del BOM
+
+SIGUIENTE:
+tema obscuro, tema claro // darkmode

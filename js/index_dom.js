@@ -1,4 +1,5 @@
 
+import scrollTopButton from "./dom/boton_scroll.js";
 import countdown from "./dom/cuenta_regresiva.js";
 import hanburgerMenu from "./dom/menu_hamburguesa.js";
 //completa el .JS
@@ -13,6 +14,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     digitalClock("#reloj","#activar-reloj","#desactivar-reloj");
     alarm("assets/alarma-para-despertar-5-.mp3","#activar-alarma","#desactivar-alarma");
     countdown("countdown", "Nov 28,2023 08:07:00", "FEliz cuMPLEAÑOS 🤓") // cuando lo invoco se hace la importacion automatica. para queryselector usamos #countdown/ cualquier formato de fecha valido en JS sirve
+    scrollTopButton(".scroll-top-btn"); //es una clase asi que agregamos el punto adelante
 })
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event
