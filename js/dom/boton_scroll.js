@@ -17,7 +17,7 @@ export default function scrollTopButton(btn) {
         }else{
             $scrollBtn.classList.add("hidden"); // aparece y desaparece con un feiding y feidown
         }
-        console.log(w.pageYOffset, d.documentElement.scrollTop);
+        //console.log(w.pageYOffset, d.documentElement.scrollTop);
     });
     d.addEventListener("click", e=>{
         /*oye, si el objeto que origino el evento  su selector concide  con lo que viene en la variable botonn */
