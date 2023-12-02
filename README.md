@@ -48,4 +48,16 @@ imagina que son varios elementos a los que van a aplicar ese cambio de estilo en
 cuando tu aplicas el tema oscuro en una aplicacion o sitio la logica de interaccion diria  que a la siguiente vez que tu visites el sitio tendrias que conservar los estilos que tu le has dado
 
 SIGUIENTE:
-si el usuario actualiza la pagina el tema ya sea (claro u oscuro) debe mantenerse para este tipo de ejercicio, te recomiendo usar una API de navegador que se llama **STORAGE** #storage particularmente el local Storage nos permite es almacenar una variable en el disco duro de el usuario
+si el usuario actualiza la pagina el tema ya sea (claro u oscuro) debe mantenerse para este tipo de ejercicio, te recomiendo usar una API de navegador que se llama **STORAGE** #storage particularmente el local Storage nos permite es almacenar una variable en el disco duro de el usuario ()  ![Esta es una imagen de ejemplo](img/storage.JPG) 
+
+si tu quisieras controlar una sesion  que te estes conectando a un backend y guardar una variable de sesion y estar comprobando  y cada que pasas a una nueva session ver si ya caducó esa variable que viene del backend localStorage tiene aplicaciones muy importantes
+eje: te preguntan tu pais de origen y el idioma al principio despues ya no te vuelven a preguntar, eso anteriormente lo hacia las cokies las cookies son mas inseguras y ademas el almacenamiento que tu puedes gurardar en cokies es mucho menor al que puedes guardar en localStorage 5Mb  otro es webStorage es como la sesio de php.
+
+la Funcion de darkTheme la estamos desencadenando en el DOMContentLoaded no podemos tener un evento del mismo tipo que se ejecute en un evento del mismo tipo DOMContentLoaded(){DOMContentLoaded}
+tenemos dos alternatimas: windowLOAD(espera a que se cargue todo los scripts) Y DOMcontenLoaded(espera tener el arbol cargado mas rapido)
+
+getItem= obtiene los valores
+setItem= establece(coloca) valores
+
+SIGUIENTE:
+responsive design: si un usuario accede desde su movil le ahoro que se se descargue toda las librerias imagenes y estilos que necista el navegador para poder visualizar el mapa y el video de youtube, y con eso le estariamos ahorando 2 o 3 megas de datos, en un viaje tratas de ahorar lo mas que puedas ¿verdad? responsible responsive design usar: eventos del BOM (eventos de la ventana) windows mach media

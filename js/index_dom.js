@@ -16,20 +16,21 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     alarm("assets/alarma-para-despertar-5-.mp3","#activar-alarma","#desactivar-alarma");
     countdown("countdown", "Nov 28,2023 08:07:00", "FEliz cuMPLEAÑOS 🤓") // cuando lo invoco se hace la importacion automatica. para queryselector usamos #countdown/ cualquier formato de fecha valido en JS sirve
     scrollTopButton(".scroll-top-btn"); //es una clase asi que agregamos el punto adelante
-    darkTheme(".dark-theme-btn", "dark-mode")//¿cual es el nombre del selector del boton? el selector es una clase. y la clase que va activar el tema oscuro se llama
-    // No necesitamos el punto simplemente especificar el nombre de la clase "dark-mode"
-})
+});
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event
 /*"keydown" , "keyup", "keypress"  */
 d.addEventListener("keydown",(e)=>{
     shortcuts(e);
     moveBall(e,".ball", ".stage"); // corresponde a lo que tenemos en el html
-})
+});
 
 
 //puristas diran: te falta validar que sean selectores validos esas validaciones que vimos en la partde de LOGICA
 
-
+//sacamos la funcion.
+darkTheme(".dark-theme-btn", "dark-mode");//¿cual es el nombre del selector del boton? el selector es una clase. y la clase que va activar el tema oscuro se llama
+    // No necesitamos el punto simplemente especificar el nombre de la clase "dark-mode" CSS
+// ahora se invoca fuera del DOMcontentLoad ya funciona
 
 
