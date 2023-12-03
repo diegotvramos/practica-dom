@@ -75,3 +75,10 @@ eso se le llama DISEÑO RESEPTIVO RESPONSABLE ¿because porque? estas pensado en
 
 SIEGUIENTE:
 RESPONSIVE TESTER: recordar las clases del BOM la programacion enfoquenla en el evento SUBMIT
+
+¿Donde se va ejecutar este responsive tester? podria ser un lugar muy adecuado a la carga del documento osea en el evento DOMContentLoaded
+
+una de las ventajas de un formulario es que todo los elementos de formulario  que esten dentro de un formulario. podemos acceder mediante la notacion del punto a cualquier input simplemente llamando el valor que tienen el atributo name
+
+SIGUIENTE:
+Deteccion de Dispositivos: algunas paginas detectan que estas en un celular y te invitan a que descargues su app en la play store u otro marked place. USA user agente contextor global Window (puede servir para redirecciones y contenido exclusivo en vace a tipos de navegadores y tipos de sistema operativo)
