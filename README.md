@@ -61,3 +61,17 @@ setItem= establece(coloca) valores
 
 SIGUIENTE:
 responsive design: si un usuario accede desde su movil le ahoro que se se descargue toda las librerias imagenes y estilos que necista el navegador para poder visualizar el mapa y el video de youtube, y con eso le estariamos ahorando 2 o 3 megas de datos, en un viaje tratas de ahorar lo mas que puedas ¿verdad? responsible responsive design usar: eventos del BOM (eventos de la ventana) windows mach media
+
+https://alistapart.com/article/responsive-web-design/ el primer autor del diseño responsable; al ocultar contenido hacemos mala practica.
+https://abookapart.com/products/responsible-responsive-design es un remeke de el primer autor, diseño para moviles de manera responsable
+
+puede ser un video o audio html, embeber una linea de comentarios de fb, o una foto de isntagram, pdf, timeline. esta tecnica de DISEÑO RESEPTIVO RESPONSABLE cualquier cosa que no sea texto trata de evitarlo en tus versiones para dispositivos moviles, lo que te suegieren es en lugar de embeber tu contenido linkealo.
+
+(``)<----------a esto se llama templateString
+
+descargar la pagina version Desktop (tiene embebido el IFRAME) pesa MÁS que descargar la pagina para Mobile(en la seccion solo tiene un enlace), la version Mobile no se compara a todos los recursos de version Desktop por haber embebido en video de youtube y el mapa de google maps. 
+
+eso se le llama DISEÑO RESEPTIVO RESPONSABLE ¿because porque? estas pensado en el usuario que tiene un plan tarifario de datos y que se encuentra en una zona desolada
+
+SIEGUIENTE:
+RESPONSIVE TESTER: recordar las clases del BOM la programacion enfoquenla en el evento SUBMIT
