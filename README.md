@@ -82,3 +82,15 @@ una de las ventajas de un formulario es que todo los elementos de formulario  qu
 
 SIGUIENTE:
 Deteccion de Dispositivos: algunas paginas detectan que estas en un celular y te invitan a que descargues su app en la play store u otro marked place. USA user agente contextor global Window (puede servir para redirecciones y contenido exclusivo en vace a tipos de navegadores y tipos de sistema operativo)
+
+2012-2014 (habia un auge)de diseños de sitios adaptados a dispositivos moviles, a las empresas grandes les hubiera costado mucho adaptar sus sitio a los mobiles entonces aplicaban la tecnica de tener dos sitios una para el pc y otra para el mobil (ADAPTIV DESIGN)
+
+http://www.web.archive.org  es una pagina para ver el historico de como se veia una pagina
+
+en la consola del navegador pones: NAVIGATOR y te proporciona en la parte de USERAGENT muestra informacion del dispositivo del usuario.
+sirve para Redirecciones o para Contenido Exclusivos
+
+cuando detecto que el userAgent era de un dispositivo android redirigio el flujo hacia mi pagina personal
+
+SIGUIENTE:
+eventos de conexion y desconexion. el mismo objeto NAVIGATOR tiene una propiedad en particular que nos permite evaluar la detecion de la conexion  y el objeto window tiene los objetos de conexion y desconexion.
