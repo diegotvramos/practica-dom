@@ -101,3 +101,7 @@ onLine: true-------------------------> esta propiedad del navegador es la que me
 
 SIEGUIENTE:
 Deteccion de Camara web y para eso hay una API  get User Media y un objeto particular llamado Meda Device
+
+
+SIGIENTE:
+geolocalizacion. interactuar con la API de la geolocalizacion.  no necsitas GPS.
