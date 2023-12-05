@@ -38,7 +38,7 @@ export default function userDeviceInfo(id) {
                     );          
                 },
             };
-     console.log(ua);
+     //console.log(ua);
     // console.log(isMobile.android());
     // console.log(isMobile.ios());
     // console.log(isMobile.any());// mientras este en un dispositivo  cualquiera.

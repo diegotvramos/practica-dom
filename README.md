@@ -94,3 +94,10 @@ cuando detecto que el userAgent era de un dispositivo android redirigio el flujo
 
 SIGUIENTE:
 eventos de conexion y desconexion. el mismo objeto NAVIGATOR tiene una propiedad en particular que nos permite evaluar la detecion de la conexion  y el objeto window tiene los objetos de conexion y desconexion.
+
+onLine: true-------------------------> esta propiedad del navegador es la que me va permitir saber si la coneccion a red está activa o no. 
+(img/online.JPG)  en la opcion de Services Workes tiene una opcion llamada (desconectar, Offline) simula la Desconeccion a internet y recien funcionan los eventos offline y online
+
+
+SIEGUIENTE:
+Deteccion de Camara web y para eso hay una API  get User Media y un objeto particular llamado Meda Device

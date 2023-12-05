@@ -2,6 +2,7 @@
 import scrollTopButton from "./dom/boton_scroll.js";
 import countdown from "./dom/cuenta_regresiva.js";
 import userDeviceInfo from "./dom/deteccion_dispositivos.js";
+import networkStatus from "./dom/deteccion_red.js";
 import hanburgerMenu from "./dom/menu_hamburguesa.js";
 import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
@@ -47,10 +48,10 @@ d.addEventListener("keydown",(e)=>{
 darkTheme(".dark-theme-btn", "dark-mode");//¿cual es el nombre del selector del boton? el selector es una clase. y la clase que va activar el tema oscuro se llama
     // No necesitamos el punto simplemente especificar el nombre de la clase "dark-mode" CSS
 // ahora se invoca fuera del DOMcontentLoad ya funciona
-
-
-
-
 /*
     donde vamos a ejecutar esta funcion? pues a la carga del documento
 */
+
+
+// esta funcion de deteccion de red no nesecita ejecutarse a la carga del documento.(se va ejecutar cuando nuestro navegador detecte la perdida de coneccion.)
+networkStatus();
