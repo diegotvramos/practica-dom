@@ -105,3 +105,12 @@ Deteccion de Camara web y para eso hay una API  get User Media y un objeto parti
 
 SIGIENTE:
 geolocalizacion. interactuar con la API de la geolocalizacion.  no necsitas GPS.
+
+ubicacion en tiempo real https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/watchPosition 
+ubicacion actual https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition 
+la presicion no es exacta, 😓
+
+SIGUIENTE:
+Filtros de Busqueda. 
+tips: dada una serie de elementos en el html lo que hago es buscar el contenido textual y estoy usando eventos del teclado
+

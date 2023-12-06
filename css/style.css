@@ -69,6 +69,7 @@ img{
     position: fixed;
     z-index: 998;
     width: 100%;
+    overflow-y: auto;/*que hacemos con el contenido que desborda*/
     top: 0;
     bottom: 0;
     left: 0;

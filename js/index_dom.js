@@ -4,6 +4,7 @@ import countdown from "./dom/cuenta_regresiva.js";
 import userDeviceInfo from "./dom/deteccion_dispositivos.js";
 import networkStatus from "./dom/deteccion_red.js";
 import webCam from "./dom/deteccion_webcam.js";
+import getGeolocation from "./dom/geolocalizacion.js";
 import hanburgerMenu from "./dom/menu_hamburguesa.js";
 import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
@@ -34,6 +35,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     responsiveTester("responsive-tester");
     userDeviceInfo("user-device");
     webCam("webcam");
+    getGeolocation("geolocation");
 });
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event
