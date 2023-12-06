@@ -237,8 +237,34 @@ img{
 }
 
 
+/**************************************     SearchFilters      ***************************************/
 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 
+.card{
+    background-color: var(--second-color);
+    color: var(--main-color);
+    transition: all 0.3s ease-out;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card figcaption{
+    padding: 1rem;
+}
+
+.filter{
+    /* permite discriminar los resultados que no coincidan*/
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}
 
 
 

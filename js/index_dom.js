@@ -4,6 +4,7 @@ import countdown from "./dom/cuenta_regresiva.js";
 import userDeviceInfo from "./dom/deteccion_dispositivos.js";
 import networkStatus from "./dom/deteccion_red.js";
 import webCam from "./dom/deteccion_webcam.js";
+import searchFilters from "./dom/filtro_busquedas.js";
 import getGeolocation from "./dom/geolocalizacion.js";
 import hanburgerMenu from "./dom/menu_hamburguesa.js";
 import responsiveMedia from "./dom/objeto_responsive.js";
@@ -36,6 +37,8 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     userDeviceInfo("user-device");
     webCam("webcam");
     getGeolocation("geolocation");
+    searchFilters(".card-filter", ".card"); //por que el elemento en el que va buscar es el article con la clase targetas!! sobre que selectores va a buscar el contenido textual
+    //(hace referencia al imput que va buscar, hace referencia al tipo de selector en el que va buscar dentro de su propiedad textContent dentro del contenido textual dela etiqueta html)
 });
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event

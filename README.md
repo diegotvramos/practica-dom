@@ -114,3 +114,32 @@ SIGUIENTE:
 Filtros de Busqueda. 
 tips: dada una serie de elementos en el html lo que hago es buscar el contenido textual y estoy usando eventos del teclado
 
+
+paginas   para generar imágenes de marcadores de posición dinámicamente:
+
+https://placebeard.it/  == el mejor para mi. (g) representa escala de grises
+https://loremflickr.com/ 
+https://picsum.photos/
+https://placeimg.com/  (ya no esta disponible)  https://loremipsum.io/21-of-the-best-placeholder-image-generators/ 
+
+Multiple images on the same page
+Your browser might cache the images when you request the same URL multiple times on the same page. You can resolve this by adding a meaningless querystring to the URL. So, for example...
+
+<img src="https://loremflickr.com/320/240?random=1" />
+<img src="https://loremflickr.com/320/240?r=2" />
+<img src="https://loremflickr.com/320/240?random=3" />
+
+va buscar el texto que yo escriba en el card-filter (input) en el contenido textual te todo los selectores de tipo card
+
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    order: 1; 
+solo oculta pero al aplicar orde.  
+cuando trabajamos con display grid, hay una propiedad que le podemos aplicar a los elementos es la misma propiedad para trabajar con el ordenamiento de los elementos hijos de una caja flexbox o de una caja grid es la propiedad: ORDER 1 es decir toda las targetas que se oculten se van al final
+
+lo unico que hago con esto es ocultarlo visualmente, pero el elemento sigue existiendo en el html, DISPLAY: NONE lo saca.
+
+SIGUIENTE:
+sorteo digital:  dado un arreglo de elementos generar un ganador aleatoriamente usar:  metodos de la clase matematicas math. 
+

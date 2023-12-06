@@ -9,9 +9,9 @@ export function moveBall(e,ball,stage) {/*e= evento, ball=selector de la pelota,
    limitsBall = $ball.getBoundingClientRect(), // con esto detectamos la colicion
    limitsStage = $stage.getBoundingClientRect();
 
-        console.log(e.keyCode);
-        console.log(e.key);
-        console.log(limitsBall,limitsStage);
+        //console.log(e.keyCode);
+        //console.log(e.key);
+        //console.log(limitsBall,limitsStage);
 
 
     //     // la pelotita lo podria mover con: possicion, left top y right  
