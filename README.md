@@ -152,5 +152,14 @@ getWinnerComment("ytm-comment-thread-renderer .comment-title") con esto obtenemo
 'El ganador es: @isaacllanas2828' 
 
 SIGUIENTE:
-hacer un Slider Responsivo.
+hacer un Slider Responsivo tambien llamado carrusel.
 
+
+cuando tapa la cabezera: recuerda que el posicionamiento por DEFAULT es estatico cuando cambias el posicionamiento a (stiky, fix, absolute, relative) cambia de profundidad (z index)  entonces nuestra cabezera (head) no tiene un z index, debemos ponerlo ej: z-index:997;
+
+SIGUIENTE:
+Scrollspy: es como tener un espia del scroll  hay ejemplos en botstrap
+el break point que yo utilize es 1024 px
+
+cuando pasa el menú se pone a la zona derecha como fija. y conforme voy escrolleando la pagina conforme yo voy Scrolleando la pagina.  el scroll espia va detectando ¿como pueden detectar cuando un elemento entra a foco de visualizacion en el view por del navegador? 
+hay una neva API del navegador que se llama intersecction observer con esa API pueden hacer su Scroll Spay 100% hecho en vanilla js

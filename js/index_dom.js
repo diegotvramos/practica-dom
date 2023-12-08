@@ -1,5 +1,6 @@
 
 import scrollTopButton from "./dom/boton_scroll.js";
+import slider from "./dom/carrusel.js";
 import countdown from "./dom/cuenta_regresiva.js";
 import userDeviceInfo from "./dom/deteccion_dispositivos.js";
 import networkStatus from "./dom/deteccion_red.js";
@@ -41,6 +42,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     searchFilters(".card-filter", ".card"); //por que el elemento en el que va buscar es el article con la clase targetas!! sobre que selectores va a buscar el contenido textual
     //(hace referencia al imput que va buscar, hace referencia al tipo de selector en el que va buscar dentro de su propiedad textContent dentro del contenido textual dela etiqueta html)
     draw("#winner-btn",".player");
+    slider();
 });
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event
