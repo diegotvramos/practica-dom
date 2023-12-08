@@ -11,6 +11,7 @@ import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
 //completa el .JS
 import { digitalClock,alarm } from "./dom/reloj.js";// como no hay ninguna funcion por default uso la desestructuracion de objetos
+import draw from "./dom/sorteo.js";
 import { shortcuts,moveBall } from "./dom/teclado.js";
 import darkTheme from "./dom/tema_oscuro.js";
 
@@ -39,6 +40,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     getGeolocation("geolocation");
     searchFilters(".card-filter", ".card"); //por que el elemento en el que va buscar es el article con la clase targetas!! sobre que selectores va a buscar el contenido textual
     //(hace referencia al imput que va buscar, hace referencia al tipo de selector en el que va buscar dentro de su propiedad textContent dentro del contenido textual dela etiqueta html)
+    draw("#winner-btn",".player");
 });
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event

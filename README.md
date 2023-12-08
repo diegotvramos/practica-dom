@@ -143,3 +143,14 @@ lo unico que hago con esto es ocultarlo visualmente, pero el elemento sigue exis
 SIGUIENTE:
 sorteo digital:  dado un arreglo de elementos generar un ganador aleatoriamente usar:  metodos de la clase matematicas math. 
 
+<ytm-comment-thread-renderer> <==== esta equiqueta creada por Google.
+para poder hacer un sorteo digital con los comentarios, hay que poner bien los parametros
+<span class="comment-title"> <========= esta es una etiqueta mas su clase digamos css llamada comment-title
+
+ahora si, al pasar parametros a la funcion que se guarda en la memoria del navegador despues de haber pegado y dado el permiso. 
+getWinnerComment("ytm-comment-thread-renderer .comment-title") con esto obtenemos el nombre del ganador. estamos obteniendo el contenido de una caja de texto. [para las clases pones el punto(.) para los ids pones:(#) y para el nombre del la etiqueta solo pones el nombre: span ]
+'El ganador es: @isaacllanas2828' 
+
+SIGUIENTE:
+hacer un Slider Responsivo.
+
