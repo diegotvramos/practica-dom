@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-dark>
-    <div class="midiv">
+
+    <!--
+        <div class="midiv">
         div prueba
     </div>
+
+      -->
+    
     <header class="header">
         <h1>
             Ejercicios del DOM
@@ -25,28 +30,28 @@
     <aside class="panel">
         <nav class="menu">
             <!-- tienen enlaces internos por eso el:# -->
-            <a href="#seccion1">Reloj Digital y Alarma Sonora</a>
-            <a href="#seccion2">Eventos del Teclado</a>
-            <a href="#seccion3">Cuenta Regresiva</a>
-            <a href="#seccion4">Responsive con javaScript</a>
-            <a href="#seccion5">Responsive Tester</a>
-            <a href="#seccion6">Deteccion de Dispositivos<br> (User Agent)</a>
-            <a href="#seccion7">Deteccion de la Conexion</a>
-            <a href="#seccion8">Deteccion de la Camara Web</a>
-            <a href="#seccion9">Geolocalizacion</a>
-            <a href="#seccion10">Filtros de Busqueda</a>
-            <a href="#seccion11">Sorteo Digital</a>
-            <a href="#seccion12">Responsive Slider</a>
-            <a href="#seccion13">Seccion 13</a>
-            <a href="#seccion14">Seccion 14</a>
-            <a href="#seccion15">Seccion 15</a>
+            <a href="#seccion1"data-scroll-spy>Reloj Digital y Alarma Sonora</a>
+            <a href="#seccion2"data-scroll-spy>Eventos del Teclado</a>
+            <a href="#seccion3"data-scroll-spy>Cuenta Regresiva</a>
+            <a href="#seccion4"data-scroll-spy>Responsive con javaScript</a>
+            <a href="#seccion5"data-scroll-spy>Responsive Tester</a>
+            <a href="#seccion6"data-scroll-spy>Deteccion de Dispositivos<br> (User Agent)</a>
+            <a href="#seccion7"data-scroll-spy>Deteccion de la Conexion</a>
+            <a href="#seccion8"data-scroll-spy>Deteccion de la Camara Web</a>
+            <a href="#seccion9"data-scroll-spy>Geolocalizacion</a>
+            <a href="#seccion10"data-scroll-spy>Filtros de Busqueda</a>
+            <a href="#seccion11"data-scroll-spy>Sorteo Digital</a>
+            <a href="#seccion12"data-scroll-spy>Responsive Slider</a>
+            <a href="#seccion13"data-scroll-spy>Seccion 13</a>
+            <a href="#seccion14"data-scroll-spy>Seccion 14</a>
+            <a href="#seccion15"data-scroll-spy>Seccion 15</a>
             <!-- esto es EMET ya trae integrado en VS code  a[href="seccion$"]*5{Seccion $}-->
         </nav>
     </aside>
     <main>
 
         <!-- section#seccion$.section*5>h2{Secction $} -->
-        <section id="seccion1" class="section">
+        <section id="seccion1" class="section" data-scroll-spy>
             <h2>Reloj Digital y Alarma Sonora</h2>
             <div id="reloj"></div>
             <div>
@@ -58,7 +63,7 @@
             <!-- <audio src="assets/alarma-para-despertar-5-.mp3" controls></audio> -->        
         </section>
 
-        <section id="seccion2" class="section">
+        <section id="seccion2" class="section" data-scroll-spy>
             <h2>Eventos del Teclado</h2>
             <article class="stage">
                 <div class="ball">
@@ -69,19 +74,19 @@
             </div>
         </section>
 
-        <section id="seccion3" class="section">
+        <section id="seccion3" class="section" data-scroll-spy>
             <h2>Cuenta Regresiva</h2>
             <div id="countdown"></div>
         </section>
 
-        <section id="seccion4" class="section">
+        <section id="seccion4" class="section" data-scroll-spy>
             <h2>Responsive con javaScript</h2>
             <div id="youtube">y</div>
             <div id="gmaps">gmaps</div>
             <!-- como cada elemento va capturar un elemento en particular va ser evaluado , por eso uso "id" y no "clases" -->
-        </section>s
+        </section>
 
-        <section id="seccion5" class="section">
+        <section id="seccion5" class="section" data-scroll-spy>
             <h2>Responsive tester</h2>
             <form id="responsive-tester">
                 <input name="direccion" type="url" placeholder="URL" required>
@@ -100,27 +105,27 @@
             -->
         </section>
 
-        <section id="seccion6" class="section">
+        <section id="seccion6" class="section" data-scroll-spy>
             <h2>Deteccion de Dispositivos<br> (User Agent)</h2>
             <div id="user-device"></div>
         </section>
 
-        <section id="seccion7" class="section">
+        <section id="seccion7" class="section" data-scroll-spy>
             <h2>Deteccion de la Conexion</h2>
         </section>
 
-        <section id="seccion8" class="section">
+        <section id="seccion8" class="section" data-scroll-spy>
             <h2>Deteccion de la Camara Web</h2>
             <video id="webcam" controls></video>
             <!-- a la etiqueta VIDEO puedes ponerle la propiedad Controls para visualizar los controles del video. -->
         </section>
 
-        <section id="seccion9" class="section">
+        <section id="seccion9" class="section" data-scroll-spy>
             <h2>Geolocalizacion</h2>
             <div id="geolocation"></div>
             <!-- aca vamos a pintar dinamicamente esa informacion de la localizacion. -->
         </section>
-        <section id="seccion10" class="section">
+        <section id="seccion10" class="section" data-scroll-spy>
             <h2>Filtros de Busqueda</h2>
             <input type="search" placeholder="Buscar..." class="card-filter">
             <article class="cards">
@@ -168,7 +173,7 @@
                     https://loremflickr.com/320/240/girl/all
                 -->
         </section>
-        <section id="seccion11" class="section">
+        <section id="seccion11" class="section" data-scroll-spy>
             <h2>Sorteo Digital</h2>
             <ul class="players">
                 <li class="player">JavaScript</li>
@@ -184,7 +189,7 @@
                 <button id="winner-btn">Obtener Ganador</button>
             </ul>
         </section>
-        <section id="seccion12" class="section">
+        <section id="seccion12" class="section" data-scroll-spy>
             <h2>Responsive Slider</h2>
             <div class="slider">
                 <div class="slider-slides">
@@ -221,13 +226,13 @@
                 </div>
             </div>
         </section>
-        <section id="seccion13" class="section">
+        <section id="seccion13" class="section" data-scroll-spy>
             <h2>Section 13</h2>
         </section>
-        <section id="seccion14" class="section">
+        <section id="seccion14" class="section" data-scroll-spy>
             <h2>Section 14</h2>
         </section>
-        <section id="seccion15" class="section">
+        <section id="seccion15" class="section" data-scroll-spy>
             <h2>Section 15</h2>
         </section>
     </main>

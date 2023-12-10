@@ -3,7 +3,7 @@ const d=document,
 
 export default function responsiveMedia(id,mq, mobileContent, desktopContent ) {// elemento id que va estar revisando, mediaQery valida en CSS, contenido html,  el contenido que se cargue dinamicamente en el desktop
     let breakpoint= w.matchMedia(mq); // contiene la mediaQuery de CSS.
-    console.log(breakpoint);
+    //console.log(breakpoint);
     const responsive = (e) =>{
         if (e.matches) { // cuando la MQ no cumpla devuelve un False
             d.getElementById(id).innerHTML= desktopContent; // por verdad // el minimo tamaño está definido en index_dom.js

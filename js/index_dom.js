@@ -12,6 +12,7 @@ import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
 //completa el .JS
 import { digitalClock,alarm } from "./dom/reloj.js";// como no hay ninguna funcion por default uso la desestructuracion de objetos
+import scrollSpy from "./dom/scroll_espia.js";
 import draw from "./dom/sorteo.js";
 import { shortcuts,moveBall } from "./dom/teclado.js";
 import darkTheme from "./dom/tema_oscuro.js";
@@ -43,6 +44,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     //(hace referencia al imput que va buscar, hace referencia al tipo de selector en el que va buscar dentro de su propiedad textContent dentro del contenido textual dela etiqueta html)
     draw("#winner-btn",".player");
     slider();
+    scrollSpy();
 });
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event

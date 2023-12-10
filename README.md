@@ -163,3 +163,22 @@ el break point que yo utilize es 1024 px
 
 cuando pasa el menú se pone a la zona derecha como fija. y conforme voy escrolleando la pagina conforme yo voy Scrolleando la pagina.  el scroll espia va detectando ¿como pueden detectar cuando un elemento entra a foco de visualizacion en el view por del navegador? 
 hay una neva API del navegador que se llama intersecction observer con esa API pueden hacer su Scroll Spay 100% hecho en vanilla js
+
+el menú movil lo vamos hacer un menú vertical en desktop
+viewPort es la ventana que vemos nosotros. la seccion que vemos aparece seleccionada.
+vamos a maquetarlo al body con Grid css.
+Voy hacer un sistema de columnas de dos filas por dos columnas donde en la primer fila va estar la cabezera(header) en la segunda fila1,columna1(main)segundaFila segundaColumna(va estar el Asside)
+
+el <H1> solo debe existir uno en los documentos como tambien el <MAIN>(no hay necesidad de ponerle un id o clase)
+
+Ya tengo en el foco del viewPor tengo visible la seccion 3 ¿con que enlace se relaciona?
+para eso vamos a utilizar un DataAtribute (atributo personalizado)
+
+detecta la parte visible del viewPort del navegador se encuentra un elemento
+
+isInteresecting: cada una de las entradas tienen una propiedad que se llaman isIntersecting {¿se crusa?}
+isVisible: (avisa si el elemento es visible o ya no) 
+
+SIGUIENTE:
+video inteligente. 
+cuando te pases de pestaña, el video ya no debe reproducirse usa {intersectionObserver y visivility change}
