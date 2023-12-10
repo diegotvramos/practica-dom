@@ -16,6 +16,7 @@ import scrollSpy from "./dom/scroll_espia.js";
 import draw from "./dom/sorteo.js";
 import { shortcuts,moveBall } from "./dom/teclado.js";
 import darkTheme from "./dom/tema_oscuro.js";
+import smartVideo from "./dom/video_inteligente.js";
 
 const d = document;
 
@@ -45,6 +46,8 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     draw("#winner-btn",".player");
     slider();
     scrollSpy();
+    //No vamos a pasar el selector de cada video como atributo, sinó lo vamos a capturar gracias al dataAttribute
+    smartVideo();
 });
 // el teclado tiene 3 eventos ([kiop]=soltamos tecla [kidown] precionamos [quipress] mientras la precionamos)
 //keyboard event

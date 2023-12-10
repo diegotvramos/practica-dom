@@ -182,3 +182,9 @@ isVisible: (avisa si el elemento es visible o ya no)
 SIGUIENTE:
 video inteligente. 
 cuando te pases de pestaña, el video ya no debe reproducirse usa {intersectionObserver y visivility change}
+
+https://coverr.co/ de esta pagina puedes descargar videos cortos
+
+SIGUIENTE:
+Validaciones de formularios para las validaciones utilizo expreciones regulares, tambien vamos a usar los atributos que me dan html5
+(qequire, pathern) el formulario no se va a enviar hasta que cumpla con las validaciones
