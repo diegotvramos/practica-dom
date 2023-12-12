@@ -14,7 +14,7 @@ export default function smartVideo() {
     const cb=(entries)=>{ 
         entries.forEach(entry=>{
             if (entry.isIntersecting) {
-                entry.target.play();
+                entry.target.pause();//play
             }else{
                 entry.target.pause();
             }
@@ -23,7 +23,7 @@ export default function smartVideo() {
             //es un operador ternario
             w.addEventListener("visibilitychange",(e)=>
             d.visibilityState=== "visible"
-            ?entry.target.play()
+            ?entry.target.pause()//play lo puse play para que no se andara reproduciendo
             :entry.target.pause()
         )
         });

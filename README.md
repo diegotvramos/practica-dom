@@ -187,4 +187,12 @@ https://coverr.co/ de esta pagina puedes descargar videos cortos
 
 SIGUIENTE:
 Validaciones de formularios para las validaciones utilizo expreciones regulares, tambien vamos a usar los atributos que me dan html5
-(qequire, pathern) el formulario no se va a enviar hasta que cumpla con las validaciones
+(qequire, pathern) el formulario no se va a enviar hasta que cumpla con las validaciones,
+
+ya puedes hacer validaciones con html y css. y expresiones regulares.
+- Nombre: ^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$
+- Correo: ^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$
+- Comentarios: ^.{1,255}$ 
+
+Cargadores SVG by https://samherbert.net/svg-loaders/  ¿Que es un SVG? El formato de archivo SVG es una herramienta que se emplea habitualmente para mostrar gráficos, diagramas e ilustraciones bidimensionales en los sitios web. Además, al ser un archivo vectorial, se puede ampliar y reducir sin perder resolución.
+
