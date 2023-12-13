@@ -196,3 +196,21 @@ ya puedes hacer validaciones con html y css. y expresiones regulares.
 
 Cargadores SVG by https://samherbert.net/svg-loaders/  ¿Que es un SVG? El formato de archivo SVG es una herramienta que se emplea habitualmente para mostrar gráficos, diagramas e ilustraciones bidimensionales en los sitios web. Además, al ser un archivo vectorial, se puede ampliar y reducir sin perder resolución.
 
+SIGUIENTE:
+es la continuacion parte 2 validacion con JS
+siguiendo la filosofia que aplican Bootstrap y Fundations en el cual si respetas el marcado que te da la documentacion todo los compomentes que tienen JS funcionan
+
+¿Donde vamos hacer las validaciones?
+** ustedes pueden ponerlo en el momento que se envia el formulario
+el evento submit.
+** yo lo voy hacer al key, mientras el usuario este introduciendo palabras la validacion se vaya cupliendo
+keyup
+(".contact-form [required]")//no olvides el espacio
+los text area no tienen atributo patron
+los botones para moverme de izquierda a derecha no funcionan.
+
+EN GPT asme una validacion  utilizando expresiones regulares para un correo electrónico valido que funcione en html pattern.
+
+SIGUIENTE:
+Proceso de envio. evitaremos php o node.
+

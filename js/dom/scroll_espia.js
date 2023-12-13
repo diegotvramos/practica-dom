@@ -18,7 +18,7 @@ export default function scrollSpy() {
             // voy acceder a su atributo id
             const id=entry.target.getAttribute("id");
             //devuelve el valor que tiene el atributo ide que tiene cada una de las secciones
-            console.log(id);
+            //console.log(id);
             if (entry.isIntersecting) {
                 //el primer selector valido de CSS que corresponda con este selector
                 // que sea un enlace(a) que tenga un [nombre del data atribute]

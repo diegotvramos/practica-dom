@@ -3,7 +3,7 @@ const d=document,
     n=navigator;
 export default function webCam(id) {
     const $video= d.getElementById(id);
-    console.log(n.mediaDevices.getUserMedia);// muestra un objeto
+    //console.log(n.mediaDevices.getUserMedia);// muestra un objeto
 
     if (n.mediaDevices.getUserMedia) {
         n.mediaDevices.getUserMedia({video:true, audio:false}) // esto es una PROMESA.

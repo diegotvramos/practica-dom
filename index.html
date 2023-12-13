@@ -275,9 +275,10 @@
                 -->
                 <legend>Envianos tus comentarios</legend>
                 <input type="text" name="name" placeholder="Escribe tu nombre" title="El nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-z]+$" required>
-                <input type="email" name="email" placeholder="correo electronico" title="Email incorrecto" pattern="r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'" required>
-                <input type="text" name="subject" placeholder="Asunto a tratar" title="El asunto es requerido" required>
+                <input type="email" name="email" placeholder="correo electronico" title="Email incorrecto" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                <input type="text" name="subject" placeholder="Asunto a tratar" title="El asunto es requerido">
                 <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios" title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$"required></textarea>
+                
                 <input type="submit" value="enviar">
                 <div class="contact-form-loader none"></div>
                 <img src="assets/ball-triangle.svg" alt="Cargando">
