@@ -169,7 +169,7 @@ viewPort es la ventana que vemos nosotros. la seccion que vemos aparece seleccio
 vamos a maquetarlo al body con Grid css.
 Voy hacer un sistema de columnas de dos filas por dos columnas donde en la primer fila va estar la cabezera(header) en la segunda fila1,columna1(main)segundaFila segundaColumna(va estar el Asside)
 
-el <H1> solo debe existir uno en los documentos como tambien el <MAIN>(no hay necesidad de ponerle un id o clase)
+el "H1" solo debe existir uno en los documentos como tambien el "MAIN"(no hay necesidad de ponerle un id o clase)
 
 Ya tengo en el foco del viewPor tengo visible la seccion 3 ¿con que enlace se relaciona?
 para eso vamos a utilizar un DataAtribute (atributo personalizado)
