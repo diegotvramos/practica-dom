@@ -213,4 +213,16 @@ EN GPT asme una validacion  utilizando expresiones regulares para un correo elec
 
 SIGUIENTE:
 Proceso de envio. evitaremos php o node.
+la validacion va ser simulada: lo que el usuario introduzca en tu formulario se envie a tu correo electronico sin necesidad de php.
+si vas hacer una peticion, a un php, a una api a un servidor... lo ideal para que el usuario no se desesperé y por cuestiones de "EXPERIENCIA DE USUARIO" ponerle un louder.
+
+jquery, 
+
+https://formsubmit.co/  :esta api te permite tener  formularios estaticos html. y te permite enviar a tu correo electronico la informacion
+¡Muy inportante todo esto hay que ejecutarlo en un entorno de servidor (no puede serloa) tiene que deci HTTPS abrir el archivo desde el discoduro, va hacer que no funcione
+
+apis de cambas, index DB, sessionStorage, Dragandrop, cache, session storage    
+
+SIGUIENTE:
+narrador de texto con diferentes voces usa api llamada: spichsintesis.
 

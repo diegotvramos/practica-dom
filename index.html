@@ -262,7 +262,8 @@
 
         <section id="seccion14" class="section" data-scroll-spy>
             <h2>Validaciones de Formulario.</h2>
-            <form class="contact-form">
+            <!-- debes poner el protocolo HTTPS y tu correo en el formulario usas otro gmail -->
+            <form class="contact-form" action="https://formsubmit.co/00dramos@gmail.com" method="POST" target="_blank"> 
                 <!-- este es como el titulo del formulario 
                 html5 tiene la capacidad de validar eje: no campos vacios,  cumplimiento de exprecion regular
                 el diseño de los mensajitos dependen de cada navegador
@@ -276,12 +277,14 @@
                 <legend>Envianos tus comentarios</legend>
                 <input type="text" name="name" placeholder="Escribe tu nombre" title="El nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-z]+$" required>
                 <input type="email" name="email" placeholder="correo electronico" title="Email incorrecto" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
-                <input type="text" name="subject" placeholder="Asunto a tratar" title="El asunto es requerido">
+                <input type="text" name="subject" placeholder="Asunto a tratar" title="El asunto es requerido" required>
                 <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios" title="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$"required></textarea>
                 
                 <input type="submit" value="enviar">
-                <div class="contact-form-loader none"></div>
-                <img src="assets/ball-triangle.svg" alt="Cargando">
+                <div class="contact-form-loader none">
+                    <img src="assets/ball-triangle.svg" alt="Cargando">
+                </div>
+                
                 <div class="contact-form-response none">
                     <p>Los datos han sido enviados</p>
                 </div>

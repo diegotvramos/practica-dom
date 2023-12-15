@@ -50,5 +50,27 @@ export default function contactFormValidations() {
                 :d.getElementById($input.name).classList.remove("is-active");
             }
         }
+    });
+    //Submit, es el evento que procesa nuestro formulario
+    d.addEventListener("submit", (e)=>{
+        //prevenimos la accion predeterminada del formulario, para que no procese
+        //e.preventDefault();
+        alert("Enviando Formulario");
+
+        const $loader= d.querySelector(".contact-form-loader"),
+                        $response=d.querySelector(".contact-form-response");
+
+        $loader.classList.remove("none");                
+        setTimeout(() => {
+            $loader.classList.add("none");
+            $response.classList.remove("none");
+            //para que el formulario se limpie
+            $form.reset();
+
+            setTimeout(() => {
+                $response.classList.add("none");
+            }, 3000);
+        }, 3000);           
     })
+    //console.log("hellllo"); 
 }
