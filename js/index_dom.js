@@ -8,6 +8,7 @@ import webCam from "./dom/deteccion_webcam.js";
 import searchFilters from "./dom/filtro_busquedas.js";
 import getGeolocation from "./dom/geolocalizacion.js";
 import hanburgerMenu from "./dom/menu_hamburguesa.js";
+import speechReader from "./dom/narrador.js";
 import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
 //completa el .JS
@@ -73,3 +74,5 @@ darkTheme(".dark-theme-btn", "dark-mode");//¿cual es el nombre del selector del
 
 // esta funcion de deteccion de red no nesecita ejecutarse a la carga del documento.(se va ejecutar cuando nuestro navegador detecte la perdida de coneccion.)
 networkStatus();
+//utiliza el DON content load
+speechReader();

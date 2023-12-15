@@ -7,7 +7,7 @@ export default function contactFormValidations() {
     //esta es la forma de capturar los imputs que me interesa validar con JS
     // no olvides poner el espacio. antes del corchete
             $inputs = d.querySelectorAll(".contact-form [required]");
-            console.log($inputs);
+            //console.log($inputs);
 
     // vamos a crear de manera dinamica una etiqueta span
     //vamos asignarle como atributo ID el valor que viene en nuestro input 
@@ -31,7 +31,7 @@ export default function contactFormValidations() {
             let $input=e.target,
             // operadores de corto circuito || DATASET= es un objeto donde está almacenado el dataAtributs
                 pattern=$input.pattern ||$input.dataset.pattern;
-                console.log($input,pattern);
+                //console.log($input,pattern);
 
                 // Oye y muestre es mensaje siempre y cuando el valor del imput sea diferente de anda
             if (pattern && $input.value!=="") {

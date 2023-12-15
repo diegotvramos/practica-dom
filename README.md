@@ -226,3 +226,13 @@ apis de cambas, index DB, sessionStorage, Dragandrop, cache, session storage
 SIGUIENTE:
 narrador de texto con diferentes voces usa api llamada: spichsintesis.
 
+// solicitamos toda las voces que detecta el navegador, el JS no interactua con el Sistema Operativo.
+ejecutamos: "speechSynthesis" en la consola del navegador.
+speechSynthesis.getVoices(); este metodo muestra todo los idiomas Consulta en la documentacion
+cada una de esas voces es un objeto que tiene diferentes propiedades.
+
+mostramos las instancias de {new SpeechSynthesisUtterance()} en la consola del navegador para asignarle la voz.
+
+
+speechMessage.voice = voices.find((voice)=>voice.name === e.target.value); // lo resolvi copiando y pegando la funcion a chatGPT y estaba demas las llaves.
+
