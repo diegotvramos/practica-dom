@@ -72,7 +72,7 @@ export default function userDeviceInfo(id) {
 
     //Redirecciones
 
-    if (isMobile.android()) {
-        window.location.href="https://jonmircha.com"
-    }
+    // if (isMobile.android()) {
+    //     window.location.href="https://jonmircha.com"
+    // }
 }
